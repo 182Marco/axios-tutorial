@@ -1,15 +1,12 @@
 import React from "react";
 import Title from "./components/Title";
-import { FirstReq } from "./examples";
+import { CustomInstance } from "./examples";
+import "./axios/global";
 
-export const App = () => {
-  console.log(`marcom ---> something: `);
-  return (
-    <main>
-      <Title />
-      <FirstReq />
-    </main>
-  );
-};
-
+export const App = () => (
+  <main>
+    <Title />
+    <CustomInstance />
+  </main>
+);
 export default App;
