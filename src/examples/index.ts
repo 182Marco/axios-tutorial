@@ -3,3 +3,4 @@ export * from "./HeaderReq";
 export * from "./PostReq";
 export * from "./GlobalIstance";
 export * from "./CustomInstance";
+export * from "./Interceptors";

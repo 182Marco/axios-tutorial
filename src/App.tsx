@@ -1,12 +1,11 @@
 import React from "react";
 import Title from "./components/Title";
-import { CustomInstance } from "./examples";
-import "./axios/global";
+import { Interceptors } from "./examples";
 
 export const App = () => (
   <main>
     <Title />
-    <CustomInstance />
+    <Interceptors />
   </main>
 );
 export default App;
